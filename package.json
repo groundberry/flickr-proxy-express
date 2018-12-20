@@ -1,0 +1,14 @@
+{
+  "name": "a_golden_every_day_node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Blanca Mendizabal Perello",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
