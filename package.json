@@ -1,14 +1,19 @@
 {
   "name": "a_golden_every_day_node_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proxy built with Express to request images from Flickr API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Blanca Mendizabal Perello",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
